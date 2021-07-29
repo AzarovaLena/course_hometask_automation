@@ -28,7 +28,7 @@ public class Lesson1_firstTest {
     }
     @Test
     public void test7 () {
-        Assert.assertEquals(getValue (23), "F");
+        Assert.assertEquals(getValue (24), "F");
     }
 
     private String getValue (int value) {
